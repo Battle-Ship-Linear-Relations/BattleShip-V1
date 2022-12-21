@@ -23,7 +23,6 @@ public class gameFrame extends JFrame{ //extends JFrame so this class can just b
     JTextField coordinateField = new JTextField();
     JButton resetButton = new JButton("Play Again");
     int rotate = 0;
-    int rise, run, yInt;
     int shipCount;
     int playerTurn = 0;
     Color player = Color.GREEN;
