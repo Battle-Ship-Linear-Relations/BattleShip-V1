@@ -1,13 +1,30 @@
 # BattleShip-V1
 This is the first version of the battleship game
 
-The idea for the game is to make a board out of JButtons and add a hover effect on the JButtons to simulate a ship being placed. All the JButtons will be created with an array in order to mass create all the buttons and be able to identify what button is being pressed.
-The Jbuttons will be placed in a way so that (0, 0) will be in the top left corner. To avoid this, the board needs to be odd, so we can find the middle of the board, x and y, and set that as the (0, 0) value.
-This can be made a 2 player game that switches between people, or can be a game against a computer.
-If a computer is playing, the first version will just pick random spots on the board and doesn't learn from its hits.
-Both players will play different coloured ships can can't see eachother's ships.
-The game will detect if a ship is sunk by counting the number of ships after each turn, if the number of any ship equals 0, there has been a sunk.
-When all ships have been sunk, indicate who the winner is and prevent the game from continuing and display a play again button.
+
+Design the game board:
+
+- Decide on the size of the game board. The board should be a grid of squares, with each square representing a location on the board.
+- Decide on the types of ships that will be used in the game. Each ship should have a length and a set of coordinates that define its position on the board.
+- Create a data structure, JButtons, to represent the game board and the ships. This could be a two-dimensional array or a class that stores the information about the board and ships.
+
+Implement the game logic:
+
+- Write code to initialize the game board and place the ships on it. You may want to allow the player to choose where to place their ships, or you can randomly place them.
+- Write code to handle the player's turn. This should include prompting the player for a target coordinate, checking if the target is a valid location on the board, and determining if the target is a hit or a miss.
+- The Jbuttons will be placed in a way so that (0, 0) will be in the top left corner. To avoid this, the board needs to be odd, so we can find the middle of the board, x and y, and set that as the (0, 0) value.
+- Both players will play different coloured ships can can't see eachother's ships.
+- Write code to handle the computer's turn. This should include selecting a target coordinate and determining if it is a hit or a miss.
+- Write code to check if a ship has been sunk. When all of the squares occupied by a ship have been hit, the ship is sunk.
+- Write code to determine if the game is over. The game is over when all of the player's ships have been sunk or all of the computer's ships have been sunk.
+
+Add graphics:
+
+- Use a graphics library, such as JavaFX or Swing, to create a graphical interface for the game.
+- Create visual representations of the game board and the ships, and use these to display the current state of the game to the player.
+- Create buttons or other controls that the player can use to input their target coordinates and perform other actions in the game.
+- Use animation and other visual effects to make the game more engaging and enjoyable to play.
+- Make a board out of JButtons and add a hover effect on the JButtons to simulate a ship being placed.
 
 
 
