@@ -26,9 +26,14 @@ Add graphics:
 - Use animation and other visual effects to make the game more engaging and enjoyable to play.
 - Make a board out of JButtons and add a hover effect on the JButtons to simulate a ship being placed.
 
+Test and debug the game:
 
+- Thoroughly test the game to ensure that all of the logic and graphics are working correctly.
+- Debug any issues that you encounter, using print statements and other debugging techniques as needed.
 
-Possible Ideas:
+_______________________________________________________________________________________________________________________________________________________________________
+
+Possible Ideas for Future Versions:
 
 - make the size of the game adjustable
 
