@@ -13,7 +13,7 @@ Implement the game logic:
 - Write code to initialize the game board and place the ships on it. You may want to allow the player to choose where to place their ships, or you can randomly place them.
 - Write code to handle the player's turn. This should include prompting the player for a target coordinate, checking if the target is a valid location on the board, and determining if the target is a hit or a miss.
 - The Jbuttons will be placed in a way so that (0, 0) will be in the top left corner. To avoid this, the board needs to be odd, so we can find the middle of the board, x and y, and set that as the (0, 0) value.
-- Both players will play different coloured ships can can't see eachother's ships.
+- Both players will play different coloured ships and can't see each other's ships.
 - When a ship is placed, it will change the colour of the JButtons and will assign them a numerical value of what ship number it is in order to identify what ship is placed to know if it sunk later on.
 - Write code to handle the computer's turn. This should include selecting a target coordinate and determining if it is a hit or a miss.
 - Write code to check if a ship has been sunk. When all of the squares occupied by a ship have been hit, the ship is sunk.
